@@ -456,7 +456,8 @@
 	</images>
 
 	<images file="res/android_ui.png" filter="nearest">
-		<area name="mobile.battle.custom-bg" xywh="0,0,1,1"/>
+		<!-- Invisible battle background -->
+		<area name="mobile.battle.custom-bg" xywh="3,0,1,1"/>
 		<area name="mobile.title.background" xywh="38,18,152,37"/>
 		<area name="mobile.tab.backgrounddd" xywh="213,60,5,5" splitx="L1,R1"/>
 		<area name="mobile.bottom.background" xywh="38,220,152,37"/>

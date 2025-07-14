@@ -67,6 +67,8 @@
 	<include filename="../Catppuccin-Mocha-Mobile/ui/android-trade.xml"/>
 	<include filename="../Catppuccin-Mocha-Mobile/ui/android-link.xml"/>
     <include filename="../Catppuccin-Mocha-Mobile/ui/android-instance.xml"/>
+	<include filename="../Catppuccin-Mocha-Mobile/ui/android-encounter.xml"/>
+  	<include filename="../Catppuccin-Mocha-Mobile/ui/android-incubator.xml"/>
 
 	<include filename="../Catppuccin-Mocha-Mobile/notif.xml"/>
 	<include filename="../Catppuccin-Mocha-Mobile/notif_a.xml"/>

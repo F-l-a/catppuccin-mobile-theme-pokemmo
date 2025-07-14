@@ -3,10 +3,11 @@
 	<!-- Include the base font -->
 	<include filename="../default/fonts.xml" />
 
-	<fontDef name="battle" filename="../default/res/fonts/battle.ttf" color="#cdd6f4" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#1e1e2e00" size="72" hinting="Full"/>
+	<fontDef name="battle" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#1e1e2e" border_width="2" border_color="#1e1e2e" size="38" markup="true" />
+  <fontDef name="battle-small" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full"/>
 	<fontDef name="braille" ref="battle" color="#000000"/>
 
-  <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f"/>
+  <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f" markup="true"/>
   <fontDef name="mechabold-large-orig" ref="mechabold-large" color="#FFFFFF" />
   <fontDef name="mechabold-large-red" ref="mechabold" color="#F09999" />
   <fontDef name="mechabold-large-green" ref="mechabold" color="#a6e3a1" />
@@ -43,6 +44,7 @@
   <fontDef name="med-shadow-22-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22"/>
 
 
+  <fontDef name="med-noshadow-16-dark-green" ref="med-noshadow-18-white" color="#7ae771"/>
   <fontDef name="med-noshadow-16-blue" ref="med-noshadow-16-white" color="#3498DB"/>
   <fontDef name="med-noshadow-18-blue" ref="med-noshadow-18-white" color="#3498DB"/>
   <fontDef name="med-noshadow-18-green" ref="med-noshadow-18-white" color="#a6e3a1"/>
