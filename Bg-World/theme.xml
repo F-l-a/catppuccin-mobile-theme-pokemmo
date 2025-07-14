@@ -70,6 +70,7 @@
 
 	<include filename="../Catppuccin-Mocha-Mobile/notif.xml"/>
 	<include filename="../Catppuccin-Mocha-Mobile/notif_a.xml"/>
+	<include filename="../default/drops.xml"/>
 
 
 </themes>
