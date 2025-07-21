@@ -1077,4 +1077,17 @@
       <alias ref="pcslot.border.selected" if="keyboardFocus"/>
     </select>
   </images>
+
+	<!-- ADD mod_4.0.0: background della chat -->
+	<images file="res/mod-ui-bottom-background-Dark.png" filter="linear">
+		<area name="mod-chat.background" xywh="*" splitx="L0,R302" splity="T362,B60"/> <!-- creo area assegnando nome. specifico coordinate e dimensioni (* = tutta l'immagine). definisco zona in cui l'immagine mantiene le dimensioni originali -->
+
+		<!-- 
+		<composed name="mod-chat.background">
+			<alias ref="mobile.window.background"/> prima immagine del composed è quella dietro
+			<alias ref="mod-pokemon.typeChart" center="true" inset="0,266,0,0"/> con center, inset muove l'immagine
+		</composed>
+		-->
+	</images>
+
 </themes>

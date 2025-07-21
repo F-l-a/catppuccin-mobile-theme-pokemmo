@@ -2,7 +2,7 @@
 <themes>
 	
 	<theme name="chatframe" ref="mobile-panel" overwrite="true">
-		<param name="background"><image>mobile.window.background</image></param>
+		<param name="background"><image>mod-chat.background</image></param>	<!-- ADD mod_4.0.0: Chat background with effectiveness chart (defined in \Catppuccin-Mocha-Mobile\gfx.xml) -->
 		<param name="border"><border>0,5,2,5</border></param>
 		<theme name="content" ref="-dialog">
 			<theme name="scrollpane" ref="scrollpane">
